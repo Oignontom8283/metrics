@@ -4,6 +4,6 @@ interface Env {
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response("Hello World!");
+		return new Response("Bonjour le monde!");
 	},
 } satisfies ExportedHandler<Env>;
